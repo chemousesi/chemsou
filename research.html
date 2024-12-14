@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chems the sun</title>
+  <style type="text/css">
+    img {
+      width: 250px;
+      padding-right: 10px;
+    }
+
+    li.research_item {
+      width: 100%;
+    }
+  </style>
+
+</head>
+
+<nav class="menu">
+  <ul class="menu__list">
+    <li class="menu__group"><a href="index.html" class="menu__link">Chems</a></li>
+    <li class="menu__group"><a href="research.html" class="menu__link select__link">Research</a></li>
+    <li class="menu__group"><a href="writing.html" class="menu__link">Writing</a></li>
+    <li class="menu__group"><a href="projects.html" class="menu__link">Code</a></li>
+    <li class="menu__group"><a href="cp.html" class="menu__link">Competition</a></li>
+  </ul>
+</nav>
+
+
+<body>
+  <h1>Research</h1>
+  <ul>
+    <li class="research_item">
+      <div class="container grid-item">
+        <img src="img/augmented_images_skin_lesion.png" width="200px" style="float:left">
+      </div>
+      <b>Skin Lesion classification challenge, Rank 13/20</b>
+      <br>
+      <b>Chems eddine Benaziza</b> Supervised by Pietro Gori
+      <br>
+      <a href="https://www.kaggle.com/competitions/ima205-challenge-2024/leaderboard"> Kaggle </a>
+      <a href="https://github.com/chemousesi/ima205-skin-lesion-challenge-2025">Github</a>
+      [<a href="files/IMA_205_Project_report_AlexNet_for_Skin_lesion_classification.pdf">Paper</a>]
+      <br>
+      <b>TL;DR</b>: In this project, we present an AlexNet-based architecture for classifying skin lesions, which
+      can be deadly if cancerous. The pipeline involves preprocessing steps such as hair removal and
+      physical data augmentation, followed by feeding the augmented images to a AlexNet architecture
+      for classification. Without data augmentation, our model achieved a performance below 50%.
+      However, with our proposed augmentation techniques, we significantly improved the accuracy to
+      0.69, resulting in a final ranking of 13/80 on a school Kaggle challenge
+    </li>
+
+    <hr>
+    <li class="research_item">
+      <div class="container grid-item">
+        <img src="img/gans.png" width="200px" style="float:left">
+      </div>
+      <b> Implementation of MMD-GAN </b>
+      <br>
+      <b>Chems eddine Benaziza</b>, Sara Meziane, Mariia Baranova, Supervised by Arthur Leclaire
+      <br>
+      <a href="https://github.com/chemousesi/mmd-gans-implementation">Github</a>
+      <br>
+      <b>TL;DR</b>: By optimizing the orthogonal projection of our perturbation onto an existing perturbation in the
+      feature space, we can improve transferability significantly. Choosing the layer at which we optimize the
+      projection changes the transferability significantly. Pretty surprising that this works.This school project
+      investigates the application of Maximum Mean Discrepancy (MMD) Generative Adversarial Networks (GANs) for image
+      generation. We delve into the MMD loss formula, which measures the discrepancy between the distributions of real
+      and generated images. <br>
+      <b>Our goal</b>: is to compare MMD GANs with Wasserstein GAN (WGAN) to understand the trade-offs
+      between various CNN feature extractors and the significance of gradient penalties.
+    </li>
+    <hr>
+    <hr>
+    <li class="research_item">
+      <div class="container grid-item">
+        <img src="img/watershed.png" width="200px" style="float:left">
+      </div>
+      <b> Super Pixels Generation </b>
+      <br>
+      <b>Chems eddine Benaziza</b> Supervised by Christophe kervazo
+      <br>
+      <a href="https://github.com/chemousesi/waterpixels-generation">Github</a>
+      <br>
+      <b>TL;DR</b>:
+      <p>
+        This work was done as a school project for the course <strong>Image Processing</strong> at Télécom Paris
+        <strong>IMA201</strong>.
+        The goal of this project is to generate superpixels using the watershed algorithm.
+        The implementation followed this
+        <a href="https://minesparis-psl.hal.science/hal-01139797/file/2014.icip.machairas.al.waterpixels.pdf"
+          target="_blank">paper</a>.
+        You will find the implementation in the Jupyter notebook, the Streamlit web app in <code>app.py</code>, and the
+        detailed report in
+        <a href="files/IMA_201_waterpixels_generation_report_Benaziza_v2.pdf"
+          target="_blank">waterpixels_generation_report</a>.
+      </p>
+
+
+    </li>
+    <hr>
+  </ul>
+</body>
+
+</html>

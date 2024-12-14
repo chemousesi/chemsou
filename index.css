@@ -1,0 +1,164 @@
+.name {
+  color: #666;
+}
+
+hr {
+  width: 100%;
+  float: left;
+}
+
+body {
+  margin: 40px auto !important;
+  max-width: 900px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Cambria, Georgia, serif;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2
+}
+
+.date {
+  color: #aaa;
+  font-family: Monaco, courier new, monospace;
+  font-size: 80%;
+}
+
+nav {
+  color: #51a012;
+  font-family: Verdana, Tahoma, Geneva, sans-serif;
+  margin: auto;
+}
+
+.container img {
+  float: right;
+  max-height: 40% !important;
+  max-width: 40%;
+  margin: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(82, 119, 221) !important;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+}
+
+
+/*
+=====
+EFFECT FADING OUT FOR SIBLINGS MENU OPTIONS
+=====
+*/
+
+.menu:hover .menu__link:not(:hover) {
+  color: #241c69;
+}
+
+/*
+=====
+MENU STYLES
+=====
+*/
+
+/* core styles */
+
+.menu__list {
+  display: flex;
+  text-align: center;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.menu__group {
+  flex-grow: 1;
+  font-size: 14px;
+}
+
+.menu__link {
+  display: block;
+}
+
+/* skin */
+
+.menu {
+  /* background-color: #ffe3be; */
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
+}
+
+.select__link::before,
+.select__link::after {
+  width: 100% !important;
+  background-color: rgb(252, 185, 109);
+}
+
+.menu__link {
+  padding: 0.8rem 0rem;
+
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  /* text-transform: uppercase; */
+}
+
+/* states */
+.menu__link:focus {
+  outline: 2px solid rgb(255, 255, 255);
+}
+
+/* hover animation */
+
+.menu__link {
+  position: relative;
+  overflow: hidden;
+
+  will-change: color;
+  transition: color .25s ease-out;
+}
+
+.menu__link::before,
+.menu__link::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: rgb(252, 185, 109);
+  /* background-color: rgb(144, 205, 255); */
+
+  will-change: width;
+  transition: width .1s ease-out;
+
+  position: absolute;
+  bottom: 0;
+}
+
+.menu__link::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menu__link::after {
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.menu__link:hover::before,
+.menu__link:hover::after {
+  width: 100%;
+  transition-duration: .2s;
+}
+
+/*
+=====
+DEMO
+=====
+*/
