@@ -1,3 +1,3 @@
 # chemsou.github.io
 check my website here 
-https://github.com/chemousesi/chemsou
+[Link to my the webpage](https://chemousesi.github.io/chemsou/)
