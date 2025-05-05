@@ -4,7 +4,9 @@ On dit souvent : _l’étonnement est un bonheur_. Je m’appelle Chems, je su
 
 Le 14 avril 2025, j’ai commencé mon stage d’ingénieur. J’arrive à 9h15 : Julia, ma buddy, m’accueille et me prépare un excellent petit-déjeuner – croissant et café – avec toute l’équipe présente. Les premiers échanges sont sympas, légers et accueillants.
 
----
+<div align="center">
+    <img src="img/etonnement_bonheur.png" alt="Étonnement et bonheur" width="500">
+</div>
 
 ### **1. Le choix d’Incepto et les idées que j’avais en tête**
 
