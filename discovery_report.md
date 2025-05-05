@@ -15,7 +15,6 @@ Chez **Incepto**, j’ai trouvé une ambiance conviviale, une entreprise jeune, 
 La première semaine a été très intense : répondre à toutes ces questions, comprendre les projets, découvrir l’organisation… ce sont de longues journées remplies de réunions ! Ça a été une semaine extrêmement formatrice, et l’onboarding s’est très bien passé.
 
 La première semaine est vraiment marquante : c’est là que se construisent toutes les premières impressions. Le choix de son endroit préféré pour travailler, les premières interactions avec toute l’équipe… Bref, tout s’est bien passé : j’ai pu découvrir l’environnement, rencontrer les différents membres de l’équipe et commencer à comprendre les enjeux des projets.
-![My Setup](/img/dr_img1.jpg)
 
 ## Pour illustrer cette première semaine, voici une photo de mon setup
 
