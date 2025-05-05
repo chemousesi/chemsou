@@ -29,15 +29,17 @@ Chaque fois que je bloque, je me tourne vers Walid, Martin ou Benoît, et j’ob
 J’ai aussi eu la chance d’échanger avec le CEO à deux reprises. La première fois, c’était lors d’un déjeuner d’équipe, où j’ai appris plein d’informations sur son travail d’expansion aux États-Unis ; la deuxième, lors d’un échange plus détaillé la semaine dernière.  
 J’ai senti que les valeurs sont bien véhiculées et partagées par tous les employés, comme le partage et l’humilité.
 
-![Pingpong space](img/dr_img3.jpg)
-
+<div align="center">
+    <img src="img/dr_img3.jpg" alt="Étonnement et bonheur" width="500"><br>
+    <em> Notre table de PingPong</em>
+</div>
 ---
 
 ### 🎯 **3. Mes objectifs**
 
 Mes objectifs dans ce stage sont avant tout d’apprendre : c’est mon but principal. Apprendre à coder, à améliorer des modèles de machine learning… mais pas seulement. Je souhaite progresser dans tous les aspects du travail : pour moi, être un bon ingénieur signifie développer mon sens de la communication, mes capacités d’analyse et de synthèse, en particulier dans mes échanges avec mes collègues. Je souhaite aussi grandir sur le plan personnel.
 
-Un stage est, selon moi, l’une des meilleures expériences : on s’engage à apprendre, et les personnes autour de nous s’engagent à nous accompagner et à nous former.
+Un stage est l’une des meilleures expériences professionnelles : on s’engage à apprendre, et les personnes autour de nous s’engagent à nous accompagner et à nous former.
 
 D’un point de vue technique, j’aimerais terminer mon stage en apportant ma “petite brique” au projet sur lequel je travaille, **PAROS**. Je souhaite voir l’impact concret de mon travail.
 
